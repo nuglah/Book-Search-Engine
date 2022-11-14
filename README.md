@@ -2,15 +2,15 @@
 
 ## Description
 
-A single paged portfolio made using react. Sepearte sections for about, portfolio, contact, and resume. Used newly learned react skills to make a fast loading react app.
+A search engine that uses the Google books api to earch for books. The starter code was using a restful api. It has been chnaged to use the Apolloserver and GraphQL api.
 
 ## Installation
 
-Deployed to Github pages
+Deployed to heroku
 https://nuglah.github.io/week20-react-portfolio/#/about
 
 ## Usage
 
-Clicking the nav links renders the different content to the content section. You can view previous projects in the portfolio section with links to the github page. The contact section lets you sen an email. The footer has links to my github, linkedin, and stack overflow profiles
+Searching for a book or author will display the result on the page.
 
 ![alt text](assets/images/screen1.png)

@@ -9,9 +9,14 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@work.github.com:nuglah/week21-book-search-engine.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/nuglah/week21-book-search-engine",
   "devDependencies": {
     "concurrently": "^5.1.0"
   }
