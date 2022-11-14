@@ -24,8 +24,9 @@
   },
   "homepage": "https://github.com/nuglah/week21-book-search-engine",
   "dependencies": {
-    "if-env": "^1.0.4",
-    "concurrently": "^5.2.0"
+    "if-env": "^1.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
 }
