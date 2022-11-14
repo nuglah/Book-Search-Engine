@@ -22,14 +22,11 @@
   "bugs": {
     "url": "https://github.com/nuglah/week21-book-search-engine/issues"
   },
-  "homepage": "https://github.com/nuglah/week21-book-search-engine",
+  "homepage": "https://github.com/nuglah/week21-book-search-engine#readme",
   "dependencies": {
     "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }

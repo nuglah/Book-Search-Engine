@@ -15,7 +15,7 @@ module.exports = {
 
     let token = req.body.token || req.query.token || req.headers.authorization;
     // let token = req.query.token || req.headers.authorization;
-    console.log("TOKEN", token);
+
     //separate "Bearer" from "<tokenvalue>"
     if (req.headers.authorization) {
       token = token.split(" ").pop().trim();
@@ -29,7 +29,6 @@ module.exports = {
     try {
       //decode and attach user data to request object
       const { data } = jwt.verify(token, secret, { maxAge: expiration });
-      console.log("DATA", data);
       req.user = data;
     } catch {
       console.log("Invalid token");
